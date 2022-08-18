@@ -32,7 +32,8 @@ namespace TPFinal_Albino
 
                 if(numero % 2 == 0 && numero > parMayor)
                     parMayor = numero;
-
+                
+                //Llamado a la funcion "EsPrimo"
                 if(EsPrimo(numero) && banderaPrimo == false){
                     menorPrimo = numero;
                     banderaPrimo = true;
